@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="514" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="354" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tableO">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object [][] {&#xa;        {&quot;T&#xea;n nghi&#x1ec7;p v&#x1ee5;&quot;, &quot; &quot;},&#xa;        {&quot;M&#xe3; nghi&#x1ec7;p v&#x1ee5;&quot;, &quot; &quot;},&#xa;        {&quot;Ng&#xe0;y th&#xe1;ng n&#x103;m&quot;, &quot; &quot;},&#xa;        {&quot;S&#x1ea3;n ph&#x1ea3;m d&#x1ecb;ch v&#x1ee5;&quot;, &quot; &quot;},&#xa;        {&quot;C&#xf4;ng ty&quot;, &quot; &quot;},&#xa;        {&quot;B&#x1ed9; ph&#x1ead;n (Ph&#xf2;ng)&quot;, &quot; &quot;},&#xa;        {&quot;Ng&#x1b0;&#x1edd;i ch&#x1ecb;u tr&#xe1;ch nhi&#x1ec7;m&quot;, &quot; &quot;},&#xa;        {&quot;Ph&#xe2;n lo&#x1ea1;i&quot;, &quot; &quot;},&#xa;        {&quot;S&#x1ed1; l&#x1b0;&#x1ee3;ng&quot;, &quot;0&quot;},&#xa;        {&quot;&#x110;&#x1a1;n gi&#xe1;&quot;, &quot;0&quot;},&#xa;        {&quot;T&#x1ed5;ng gi&#xe1;&quot;, &quot;0&quot;},&#xa;        {&quot;&#x110;&#x1a1;n v&#x1ecb; t&#xed;nh&quot;, &quot; &quot;},&#xa;        {&quot;&#x110;&#x1a1;n v&#x1ecb; &#x111;o&quot;, &quot; &quot;}&#xa;    },&#xa;    new String [] {&#xa;        &quot;&quot;, &quot;&quot;&#xa;    }&#xa;) {&#xa;    boolean[] canEdit = new boolean [] {&#xa;        false, true&#xa;    };&#xa;&#xa;    public boolean isCellEditable(int rowIndex, int columnIndex) {&#xa;        return canEdit [columnIndex];&#xa;    }&#xa;}" type="code"/>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0"/>
+            </Property>
+            <Property name="rowHeight" type="int" value="25"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableOMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

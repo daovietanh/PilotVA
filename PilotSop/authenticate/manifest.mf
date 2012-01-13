@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: installerGUI
+OpenIDE-Module-Install: installer/Installer.class
+OpenIDE-Module-Localizing-Bundle: installerGUI/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="EnterpriseManagerService" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>vn.com.hkt.pilot.entities.Department</class>
+        <class>vn.com.hkt.pilot.entities.Enterprise</class>
+        <class>vn.com.hkt.pilot.entities.Operation</class>
+        <class>vn.com.hkt.pilot.entities.Person</class>
+        <class>vn.com.hkt.pilot.entities.Product</class>
+        <class>vn.com.hkt.pilot.entities.Mission</class>
+        <class>vn.com.hkt.pilot.entities.City</class>
+        <class>vn.com.hkt.pilot.entities.Country</class>
+        <class>vn.com.hkt.pilot.entities.Partition1</class>
+        <class>vn.com.hkt.pilot.entities.PartitionDetail</class>
+        <class>vn.com.hkt.pilot.entities.Classification</class>
+        <class>com.vn.hkt.core.Account</class>
+        <class>com.vn.hkt.core.GroupUser</class>
+        <class>com.vn.hkt.core.Permission</class>
+        <class>com.vn.hkt.core.Window</class>
+        <class>vn.com.hkt.pilot.entities.UnitsOfMeasurement</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/EnterpriseManager"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+        </properties>
+    </persistence-unit>
+</persistence>
